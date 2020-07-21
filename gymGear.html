@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymGearPage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/practiceCSS.css">
+</head>
+<body>
+    <header>
+        <h1>BUY GYM GEAR</h1>
+    </header>
+
+    <table id="gymGearTable" style = "width:25%;">
+        <tr>
+            <th><a href="home.html">HOME</a></th>
+            <th><a href="aboutUs.html">ABOUT US</a></th>
+        </tr>
+    </table>
+
+    <p id="gymGearp1">Fill out the form below for the gym equipment you would like.</p>
+
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-2">
+                <label for="inpFirstName">First Name:</label>
+              <input type="text" class="form-control" placeholder="First name" name="firstName" id="inpFirstName">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inpSurname">Surname:</label>
+              <input type="text" class="form-control" placeholder="Last name" name="surname" id="inpSurname">
+            </div>
+          </div>
+        <div class="form-group col-md-4">
+            <label for="inpMobNumber">Mobile number:</label>
+            <input type="number" class="form-control" id="inpMobNumber" aria-describedby="mobileNumber" name="mobNumber">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inpEmail">Email address:</label>
+            <input type="email" class="form-control" id="inpEmail" aria-describedby="emailHelp" name="inpEmail">
+        </div>
+       <div class="form-group col-md-4">
+            <label for="inpDesc">Describe the machine you want us to make:</label>
+            <textarea class="form-control" id="inpDesc" rows="3" aria-describedby="description" name="inpDesc"></textarea>
+       </div>
+       <div class="form-row">
+        <button type="submit" class="btn btn-primary" name="subForm">Submit button</button>
+        <button type="reset" class="btn btn-danger" name="resetButton">reset form</button>
+    </div>
+    </form>
+    
+</body>
+</html>

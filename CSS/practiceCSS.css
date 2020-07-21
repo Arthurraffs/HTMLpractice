@@ -1,4 +1,17 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+}
+
 .homeBody{
-    font-family: fantasy;
-    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: darkcyan;
+}
+
+#gymGearp1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkcyan;
+    font-size: 15px;
+    font-weight: bold;
 }
